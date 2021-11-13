@@ -8,7 +8,7 @@ export  const ResultContextProvider = ({children})=>{
 
     const [ results , setResults]  = useState([]);
     const [isLoading , setIsLoading] = useState(false);
-    const [ searchTerm , setSearchTerm] = useState('');
+    const [ searchTerm , setSearchTerm] = useState('rick roll');
 
     // /videos , /search,/images
     const getResults = async (type) =>{
